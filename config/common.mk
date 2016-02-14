@@ -132,6 +132,10 @@ include vendor/cm/config/themes_common.mk
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/NovaLauncher/NovaLauncher.apk:system/app/NovaLauncher/NovaLauncher.apk
 
+# WifiKey
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/wifi:system/bin/wifi
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Development \
