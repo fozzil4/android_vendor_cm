@@ -152,7 +152,8 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     CMSettingsProvider \
-    ExactCalculator
+    ExactCalculator \
+    LiveLockScreenService
 
 # Exchange support
 PRODUCT_PACKAGES += \
